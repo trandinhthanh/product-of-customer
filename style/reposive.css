@@ -9,6 +9,7 @@
     }
     .header-navbar {
         display: none;
+        padding-top: 10px ;
     }
 
     .header-navbar.open {
