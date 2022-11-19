@@ -70,4 +70,8 @@
     .header-bar .hiddennav {
         display: block;
     }
+
+    .slider-carousel {
+        margin-top: 75px;
+    }
 }
