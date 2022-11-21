@@ -14,6 +14,15 @@ html {
     text-transform: uppercase;
 }
 
+dl, ol, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
 #header{
     position: fixed;
     width: 100%;
@@ -262,7 +271,7 @@ html {
 }
 
 .slider-carousel {
-    margin-top: 128px;
+    margin-top: 117px;
 }
 
 .banner {
@@ -275,4 +284,46 @@ html {
 
 .banner p {
     line-height: 350px;
+}
+
+/* content */
+#content {
+    padding: 50px 30px;
+}
+
+#content .product-line {
+    margin-bottom: 50px;
+}
+
+#content .product-line__title {
+    background-image: linear-gradient(60deg,#dc3545,#bd3655);
+    padding: 10px 7px;
+    border-radius: 10px 10px 0 0;
+}
+
+#content .product-line__title h2{
+    font-size: 3rem;
+}
+
+#content .product-line .product-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px -10px;
+    justify-content: flex-start;
+}
+
+.product__item {
+    width: calc(20% - 20px);
+    margin: 0 10px;
+}
+
+.product__item img {
+    width: 100%;
+}
+
+.product__name {
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 10px 0;
 }

@@ -1,3 +1,31 @@
+@media screen and (max-width: 1100px) {
+    .product__item {
+        width: calc(25% - 20px);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .product__item {
+        width: calc(33.333% - 20px);
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    #content .product-line__title h2{
+        font-size: 2rem;
+    }
+
+    .product__item {
+        width: calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .product__item {
+        width: calc(100% - 20px);
+    }
+}
 
 @media screen and (max-width: 780px) {
     .header-top {
